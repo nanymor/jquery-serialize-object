@@ -23,6 +23,14 @@
     "type": "jQuery",
     "name": "jQuery serializeObject"
   },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "jquery": "global:jQuery"
+  },
   "author": "macek <paulmacek@gmail.com>",
   "license": "BSD-3-Clause",
   "bugs": {
